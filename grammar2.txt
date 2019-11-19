@@ -1,0 +1,5 @@
+S -> ABA | CA
+B -> BC | AB
+A -> a | ε
+C -> aB | b | ε
+E -> CA | AB | bb
