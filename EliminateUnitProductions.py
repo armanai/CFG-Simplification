@@ -29,11 +29,17 @@ class EliminateUnitProductions:
         for prod, rules in self.grammar.productions.items():
             unit_prods = []
             for rule in rules:
-                if len(rule) is 1 and rule.isupper():
+                if self.rule_matches_symbol(rule):
                     unit_prods.append(rule)
             if len(unit_prods) > 0:
                 new_unit_productions.append((prod, unit_prods))
         return new_unit_productions
+
+    def rule_matches_symbol(self, rule):
+        for symbol in self.grammar.symbols:
+            if rule == symbol:
+                return True
+        return False
 
     def clear(self):
         for prod, rules in self.grammar.productions.items():

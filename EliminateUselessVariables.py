@@ -22,6 +22,7 @@ class EliminateUselessVariables:
         test = True
         while test:
             for prod in productions:
+                print(prod)
                 if self.is_generating(prod[1]) and prod[0] not in _generating:
                     _generating.append(prod[0])
             if _generating == self.generating:
@@ -30,10 +31,9 @@ class EliminateUselessVariables:
         self.set_not_generating()
 
     def set_not_generating(self):
-        for prod in self.grammar.productions:
-            if prod[0] not in self.generating and prod[0] not in self.not_generating:
-                print(prod[0])
-                self.not_generating.append(prod[0])
+        for prod, rules in self.grammar.productions.items():
+            if prod not in self.generating and prod not in self.not_generating:
+                self.not_generating.append(prod)
 
     def is_generating(self, prod):
         for g in self.generating:

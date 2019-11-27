@@ -2,7 +2,7 @@ from Grammar import Grammar
 
 
 def main():
-    f = open("grammar3.txt", "r")
+    f = open("grammar4.txt", "r")
     grammar = ""
     lines = f.readlines()
 

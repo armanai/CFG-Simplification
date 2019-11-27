@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e857e83f-9ef9-42c6-89e0-50e4f37abdce" name="Default Changelist" comment="Refactor Useless Variables">
-      <change afterPath="$PROJECT_DIR$/grammar3.txt" afterDir="false" />
+    <list default="true" id="e857e83f-9ef9-42c6-89e0-50e4f37abdce" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/grammar4.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EliminateUnitProductions.py" beforeDir="false" afterPath="$PROJECT_DIR$/EliminateUnitProductions.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EliminateUselessVariables.py" beforeDir="false" afterPath="$PROJECT_DIR$/EliminateUselessVariables.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grammar.py" beforeDir="false" afterPath="$PROJECT_DIR$/Grammar.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -87,7 +89,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574155292361</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Refactor Useless Variables">
+      <created>1574614956800</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1574614956800</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -105,6 +114,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="&quot;Init&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;Init&quot;" />
+    <MESSAGE value="Refactor Useless Variables" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor Useless Variables" />
   </component>
 </project>
